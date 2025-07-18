@@ -7,11 +7,70 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
+  margin-top: 220px;
+}
+.max {
+  max-width: 1110px;
+  margin: auto;
 }
 .navbar-left {
 }
 .navbar-right {
 }
-.btn-navbar > li {
+.btn-navbar {
   display: flex;
+  gap: 20px;
+  list-style: none;
+  font-family: Poppins;
+  font-weight: 600;
+  align-items: center;
+}
+.btn-navbar li a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.left-side {
+  width: 582px;
+}
+.title {
+  font-size: 3.25rem;
+  font-weight: bold;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+.sub-title {
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+.btn-praimary {
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.right-side {
+  /* background-image: url(../images/Circle\ design.svg); */
+  width: 420px;
+  margin-right: 15px;
+}
+/* img section start */
+
+.img-section {
+}
+.images {
+  flex-wrap: wrap;
+  margin: 100px 0px;
+  text-align: center;
+}
+.images img {
+  margin-right: 60px;
 }
